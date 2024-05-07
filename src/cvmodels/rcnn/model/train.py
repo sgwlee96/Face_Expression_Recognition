@@ -114,7 +114,7 @@ def train_rccn(model,optimizer,train_dataloader,validation_dataloader,
             
             mean_train_loss = round(sum(iteration_train_loss)/len(iteration_train_loss),4)
 
-            ic(f"{i_batch} / {n_train_batches} Training loss: {mean_train_loss}\n")
+            print(f"{i_batch} / {n_train_batches} Training loss: {mean_train_loss}\n")
             
         iteration_validation_loss = []
         

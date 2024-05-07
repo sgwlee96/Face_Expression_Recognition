@@ -166,4 +166,4 @@ if __name__ == "__main__":
         break
         
     
-    ic(n)
+    print(n)

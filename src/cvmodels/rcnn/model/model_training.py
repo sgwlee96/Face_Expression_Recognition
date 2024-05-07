@@ -15,9 +15,9 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-
+#epoch 30
 def train_model(model=None,batch_size=1,lerning_rate=0.001,
-                epochs=30,mode_save_root='trained_models',
+                epochs=10,mode_save_root='trained_models',
                 optimizer=None,
                 TRAIN_ROOT = "../DATA/Data/train",
                 VALIDATION_ROOT = "../DATA/Data/validation",

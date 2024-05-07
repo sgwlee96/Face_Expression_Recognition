@@ -14,8 +14,9 @@ if __name__ == "__main__":
     ANNOTAION_PATH = "./nnps_coco_format/balanced_dataset_annotations.json"
     
     train_model(batch_size=3,lerning_rate=0.1,
-                epochs=30,mode_save_root='trained_models',
+                epochs=10,mode_save_root='trained_models',
                 trainable_backbone_layers=5,
                 TRAIN_ROOT = TRAIN_ROOT,
                 VALIDATION_ROOT = VALIDATION_ROOT,
                 ANNOTAION_PATH = ANNOTAION_PATH)
+# epoch = 30
