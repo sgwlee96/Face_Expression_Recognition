@@ -7,6 +7,13 @@ This project focuses on developing and optimizing a Facial Expression Recognitio
 
 The primary objective of this project is to improve FER accuracy beyond 90%, addressing challenges related to real-time detection, data imbalance, and multi-label classification. By integrating novel data balancing and augmentation techniques, this research enhances the model’s robustness and ensures reliable engagement assessment in academic settings.
 
+## Technologies & Frameworks Used
+- Deep Learning Architectures: YOLOv7, VGG16, R-CNN, AlexNet
+- Frameworks & Libraries: PyTorch, TensorFlow, Keras, OpenCV
+- Programming Language: Python
+- Data Processing: NumPy, Pandas
+- Visualization Tools: Matplotlib, Seaborn
+
 ## Methodology
 1. Data Collection & Preprocessing:
 - Collected facial expression datasets for training and testing.
@@ -21,6 +28,20 @@ The primary objective of this project is to improve FER accuracy beyond 90%, add
 - Compared model accuracy with previous research findings.
 - Assessed real-time detection performance in classroom-like environments.
 
+## Key Outcomes & Results
+- YOLOv7 outperformed VGG16, R-CNN, and AlexNet in real-time facial expression detection.
+- Achieved an accuracy of over 90%, surpassing prior studies (VGG16 - 82%, R-CNN - 85%, AlexNet - 80%).
+- Proposed data preparation techniques significantly improved model reliability.
+- System successfully detects and categorizes student engagement levels during instructional sessions.
+
+## Future Improvements
+- Expanding Dataset: Increase dataset size with diverse expressions from multiple demographics.
+- Edge Deployment: Optimize model for integration into low-power edge devices (e.g., Raspberry Pi, Jetson Nano).
+- Multimodal Learning: Incorporate additional student engagement indicators (e.g., voice, posture analysis).
+- Explainability & Interpretability: Implement techniques like Grad-CAM for better model interpretability.
+
+## Conclusion
+This Facial Expression Recognition (FER) system enhances educational settings by analyzing student engagement and emotional responses in real time. The integration of YOLOv7 with novel data balancing strategies improves accuracy, efficiency, and practical usability compared to traditional FER models. This research contributes to advancing AI-powered engagement monitoring tools for personalized and adaptive learning environments.
 
 
 -------------------------------------------------------------------------------------
