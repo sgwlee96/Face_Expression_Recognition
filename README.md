@@ -1,9 +1,8 @@
 # 😊 Face Expression Recognition
-------------
+<div>
+    <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" alt="Ultralytics CI"></a>
 
-
-
-
+</div>
 
 
 
@@ -13,7 +12,7 @@
 
 
 -------------------------------------------------------------------------------------
-## Project Structure
+# Project Structure
 
 - **[src/](./src/)**: source code and data
 
