@@ -1,7 +1,11 @@
 # 😊 Face Expression Recognition
 <div>
     <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" alt="Ultralytics CI"></a>
-
+     <a href="https://www.python.org" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" 
+             alt="Python Logo" 
+             width="200">
+    </a>
 </div>
 
 
