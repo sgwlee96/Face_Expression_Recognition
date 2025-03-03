@@ -1,13 +1,25 @@
 # 😊 Face Expression Recognition
-<div>
-    <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" alt="Ultralytics CI"></a>
-</div>
+## Introduction
 
+This project focuses on developing and optimizing a Facial Expression Recognition (FER) system tailored for educational environments to assess student engagement and emotional responses during instructional sessions. The system leverages advanced deep learning architectures, particularly You Only Look Once version 7 (YOLOv7), alongside insights from prior research on VGG16, R-CNN, and AlexNet to enhance accuracy and reliability.
 
+## Objective
 
+The primary objective of this project is to improve FER accuracy beyond 90%, addressing challenges related to real-time detection, data imbalance, and multi-label classification. By integrating novel data balancing and augmentation techniques, this research enhances the model’s robustness and ensures reliable engagement assessment in academic settings.
 
+## Methodology
+1. Data Collection & Preprocessing:
+- Collected facial expression datasets for training and testing.
+- Applied data augmentation techniques to handle class imbalance.
+- Preprocessed images using normalization and noise reduction.
 
+2. Model Training & Optimization:
+- Implemented deep learning architectures (YOLOv7, VGG16, R-CNN, AlexNet) with Rectified Linear Unit (ReLU) activation.
+- Fine-tuned hyperparameters (learning rate, batch size, epochs) for optimal performance.
 
+3. Performance Evaluation:
+- Compared model accuracy with previous research findings.
+- Assessed real-time detection performance in classroom-like environments.
 
 
 
